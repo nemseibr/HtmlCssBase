@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model + Semântica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <p><strong>HEADER:</strong> Isso é o cabeçalho (tem margin, padding e border)</p>
+  </header>
+
+  <nav>
+    <p><strong>NAV:</strong> Isso é o menu (usa FLEXBOX)</p>
+    <ul>
+      <li>Home</li>
+      <li>Sobre</li>
+      <li>Contato</li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <p><strong>ARTICLE:</strong> Conteúdo principal</p>
+
+      <section>
+        <p><strong>SECTION:</strong> Seção interna</p>
+      </section>
+
+      <section>
+        <p>Outra section com conteúdo aleatório</p>
+      </section>
+    </article>
+
+    <aside>
+      <p><strong>ASIDE:</strong> Conteúdo lateral</p>
+    </aside>
+  </main>
+
+  <!-- BOX MODEL VISUAL -->
+  <div class="box-model-demo">
+    <div class="label"> MARGIN (amarelo externo)</div>
+
+    <div class="box-padding">
+      <div class="label"> PADDING (laranja)</div>
+
+      <div class="box-border">
+        <div class="label"> BORDER (verde)</div>
+
+        <div class="box-content">
+          <div class="label">🟪 CONTENT (roxo)</div>
+          Aqui fica o conteúdo (texto, imagem etc)
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>FOOTER:</strong> Isso é o rodapé</p>
+  </footer>
+
+</body>
+</html>
