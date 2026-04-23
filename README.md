@@ -4,6 +4,8 @@ Este repositório foi criado para exercitar os fundamentos de HTML5 e CSS3, com 
 
 O projeto apresenta um layout simples e didático, onde cada elemento foi construído com o objetivo de demonstrar, de forma prática, como funciona a organização de uma página utilizando tags semânticas, além de conceitos essenciais de estilização.
 
+### **Para executar esse projeto, basta fazer o download da pasta para sua área de trabalho e clique na pasta para abri-la, a seguir, clique e abra o arquivo index.html.**
+
 🎯 Objetivos de Aprendizado
 Compreender o uso de tags semânticas como header, nav, main, article, section, aside e footer
 Visualizar na prática o funcionamento do Box Model:
